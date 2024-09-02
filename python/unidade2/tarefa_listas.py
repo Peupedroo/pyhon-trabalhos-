@@ -11,10 +11,12 @@ while i < len(L):
     if L[i] == pergunta_1:
         verificacao = True
         print (f"esse elemento tem na lista {pergunta_1}")
+        break
        
     elif L[i] == pergunta_2:
         verificacao = True
         print (f"esse elemento tem na {pergunta_2}")
+        break
     
        
         
