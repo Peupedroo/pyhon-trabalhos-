@@ -7,6 +7,7 @@ while contador > 0:
     if numero % contador == 0:
         conta += 1
     
+    contador -=1
     
 
 if conta == 2:
